@@ -1,0 +1,120 @@
+{
+  "synthetic": true,
+  "encoding": "UTF-8",
+  "tables": {
+    "households": {
+      "count": 120,
+      "fields": [
+        "household_id",
+        "risk_tier",
+        "cohort",
+        "enrolled_at"
+      ],
+      "primary_key": [
+        "household_id"
+      ],
+      "sha256": "30c6e6abd8a070b3b4838dcde034fff9aacd49149b44c8e58eebf19b323ad821"
+    },
+    "cases": {
+      "count": 360,
+      "fields": [
+        "case_id",
+        "household_id",
+        "opened_at",
+        "closed_at",
+        "kind"
+      ],
+      "primary_key": [
+        "case_id"
+      ],
+      "sha256": "4dbc0a108935bb66bd96c225dc2ee32d22080ef713207be2f635de5f23bdeeb4"
+    },
+    "events": {
+      "count": 900,
+      "fields": [
+        "event_id",
+        "case_id",
+        "household_id",
+        "modality",
+        "kind",
+        "occurred_at",
+        "received_at",
+        "status"
+      ],
+      "primary_key": [
+        "event_id"
+      ],
+      "sha256": "97fbcd37744d69dfc5bfb1781f316a10be3714a5fa3d7a42f533481edf019173"
+    },
+    "outages": {
+      "count": 20,
+      "fields": [
+        "outage_id",
+        "household_id",
+        "start",
+        "end",
+        "kind"
+      ],
+      "primary_key": [
+        "outage_id"
+      ],
+      "sha256": "6f07d07c0eb11080c67095ac41841f6f6d1883f6d6d6e077d4c774e23bdc9c19"
+    },
+    "consents": {
+      "count": 160,
+      "fields": [
+        "consent_id",
+        "household_id",
+        "modality",
+        "valid_from",
+        "valid_to",
+        "withdrawn_at"
+      ],
+      "primary_key": [
+        "consent_id"
+      ],
+      "sha256": "04055d74e97380710be5669d6d8fde999bfd6401d0c6b1dee002776484cdcd04"
+    },
+    "service_slots": {
+      "count": 12,
+      "fields": [
+        "slot_id",
+        "start",
+        "end",
+        "capacity",
+        "staff"
+      ],
+      "primary_key": [
+        "slot_id"
+      ],
+      "sha256": "563407929f9ea574d473477ce622b2175b7ac81456061a3c17af50ae8104898f"
+    },
+    "confirmed": {
+      "count": 2,
+      "fields": [
+        "confirm_id",
+        "household_id",
+        "slot_id",
+        "confirmed_at",
+        "cancelled_at"
+      ],
+      "primary_key": [
+        "confirm_id"
+      ],
+      "sha256": "02fafb0ea974005e26c457e8f244405a3cda2b9c9c94149677ab183d16138e3c"
+    },
+    "requests": {
+      "count": 18,
+      "fields": [
+        "request_id",
+        "household_id",
+        "slot_id",
+        "requested_at"
+      ],
+      "primary_key": [
+        "request_id"
+      ],
+      "sha256": "213b58f517ffea532bc04ae5fe9ebcf9d6814b8d89737222e9701f14d2124379"
+    }
+  }
+}
