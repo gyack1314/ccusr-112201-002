@@ -30,7 +30,7 @@
       "sha256": "4dbc0a108935bb66bd96c225dc2ee32d22080ef713207be2f635de5f23bdeeb4"
     },
     "events": {
-      "count": 900,
+      "count": 1400,
       "fields": [
         "event_id",
         "case_id",
@@ -44,7 +44,7 @@
       "primary_key": [
         "event_id"
       ],
-      "sha256": "97fbcd37744d69dfc5bfb1781f316a10be3714a5fa3d7a42f533481edf019173"
+      "sha256": "b9b095e6049ca051124926fddb8cb5443c2cb57e1ab26657662223fa479fe85b"
     },
     "outages": {
       "count": 20,
