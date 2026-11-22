@@ -89,6 +89,19 @@
       ],
       "sha256": "563407929f9ea574d473477ce622b2175b7ac81456061a3c17af50ae8104898f"
     },
+    "service_policy": {
+      "count": 3,
+      "fields": [
+        "policy_id",
+        "risk_tier",
+        "max_wait_hours",
+        "minimum_confirmed_share"
+      ],
+      "primary_key": [
+        "policy_id"
+      ],
+      "sha256": "cae2c6a9c478c3e4ab2e7801f6a593888e3d93390d74ab4c3396e5f5362ec2bf"
+    },
     "confirmed": {
       "count": 2,
       "fields": [

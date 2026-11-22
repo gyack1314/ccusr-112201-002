@@ -1,0 +1,3 @@
+{"policy_id":"POL-high","risk_tier":"high","max_wait_hours":24,"minimum_confirmed_share":0.4}
+{"policy_id":"POL-medium","risk_tier":"medium","max_wait_hours":72,"minimum_confirmed_share":0.2}
+{"policy_id":"POL-low","risk_tier":"low","max_wait_hours":168,"minimum_confirmed_share":0.0}
